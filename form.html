@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visual codet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 id="title">visual codet</h1>
+<p id="description">thank you everyone</p>
+
+<form id="survey-form">
+<label for="name" id="name-label">
+    name
+    <input type="text" id="name" placeholder="enter ur name" required />
+</label>   
+
+<label for="email" id="email-label">
+    email
+    <input type="email" id="email" placeholder="enter ur email" required />
+</label> 
+
+<label for="number" id="number-label">
+    age
+    <input type="number" id="number" placeholder="how old are you" 
+    min="15"
+    max="35"/>
+</label> 
+
+<label for="dropdown" id="dropdown-label">
+    what your job?
+    <select id="dropdown">
+    <option>design</option>
+    <option>programing</option>
+    </select>
+</label>
+
+<label for="member" id="member-label"> are you sure? </label>
+<input type="radio" name="member" value="1" /> yes <br />
+<input type="radio" name="member"value="2" /> no <br />
+
+<br /> <br />
+
+<label for="albums" id="albums-label"> gallery </label>
+<input type="checkbox" value="123" />  <br />123
+<input type="checkbox" value="234" />  <br />234
+
+
+<br /> <br />
+
+<label for="comment" id="comment-label">
+    comment
+    <textarea name="" id="comment" cols="30" rows="10"></textarea>
+</label> 
+
+<button id="submit" type="submit">submit</button>
+
+
+
+
+
+
+</form>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    
+</body>
+</html>
